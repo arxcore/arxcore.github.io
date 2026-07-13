@@ -4,36 +4,26 @@ title: Home
 permalink: /
 ---
 
-# ARZ
-
-**Junior Python Developer - Fokus pada Data Engineering**
-
-Membangun open-source ELT pipeline untuk data makroekonomi US & UK.
-
 ---
 
-## 🚀 Featured Project
+## Summary
 
-### Macro Data Pipeline
-
-Automated ELT pipeline yang menangani 45+ indikator ekonomi (CPI, PPI, NFP, GDP) dari lembaga statistik AS dan Inggris.
-
-**Tech Stack:** Python 3.12+ • Asyncio • Polars • Pydantic • PostgreSQL • dbt-core
+Developed an automated macro data pipeline to extract, validate, and store macro indicators from international statistics (currently US & UK). Project is under active development
 
 **Highlights:**
 
 - Hybrid ingestion engine (REST API + file-based sources)
-- High-concurrency async data fetching
+- concurrency async data fetching
 - Strict data validation
 - Vintage data preservation dengan JSONB
 
-**[Lihat Detail Project →](/pipeline/)**
+**[Detail Project →](/pipeline/)**
 
 ---
 
-## 💻 Core Skills
+## Core Skills
 
-- **Languages:** Python (Asyncio, Type Hints)
+- **Languages:** Python
 - **Data Processing:** Polars, Pandas, Calamine
 - **Validation:** Pydantic (strict models)
 - **Database:** PostgreSQL (JSONB, indexing)
@@ -44,5 +34,5 @@ Automated ELT pipeline yang menangani 45+ indikator ekonomi (CPI, PPI, NFP, GDP)
 
 ## 📬 Connect
 
-- **GitHub:** [github.com/arxcore](https://github.com/arxcore)
-- **Portfolio Project:** [github.com/arxcore/pipeline](https://github.com/arxcore/pipeline)
+- [GitHub Profile](https://github.com/arxcore)
+- [Portfolio Project](https://github.com/arxcore/pipeline)
