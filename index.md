@@ -38,7 +38,7 @@ Automated ELT pipeline yang menangani 45+ indikator ekonomi (CPI, PPI, NFP, GDP)
 - **Validation:** Pydantic (strict models)
 - **Database:** PostgreSQL (JSONB, indexing)
 - **Transformation:** dbt-core
-- **Tools:** Git, GitHub, Linux (Fedora)
+- **Tools:** Git, GitHub, Linux
 
 ---
 
