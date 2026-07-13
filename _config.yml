@@ -1,6 +1,14 @@
-title: Araz Swandy
-logo: "/images/logo.png"
-description: "Junior Python Dev focused on building open-source ELT data pipelines for macroeconomic data. Experienced in designing hybrid ingestion engines for REST APIs and file-based sources, implementing strict data validation with Pydantic, and managing PostgreSQL databases."
+title: Araz swandy # your name (or website title) here
+logo: "/images/logo.png?raw=true" # your photo (or logo) here
+description:
+  > # your text below (remove <br> elements if you don't need line breaks)
+  Junior Python Dev
+  <br><br>
+  focused on building open-source ELT data pipelines for macroeconomic data. Experienced in designing hybrid ingestion engines for REST APIs and file-based sources, implementing strict data validation with Pydantic, and managing PostgreSQL databases. Proficient in async programming and full development lifecycle management via Git/GitHub.
+  <br><br>
+  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a>
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-remote-theme
+  - jekyll-theme-minimal
+google_analytics: "" # your Google Analytics tracking ID here
