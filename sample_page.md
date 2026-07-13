@@ -1,31 +1,55 @@
-## This can be your internal website page / project page
+---
+layout: page
+title: Macro Data Pipeline
+permalink: /pipeline/
+---
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# Macro Data Pipeline
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+automated ELT (Extract, Load, Transform) pipeline open-source untuk mengambil, memvalidasi, dan menyimpan indikator makroekonomi dari lembaga statistik AS dan UK.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+**Tech Stack:** Python 3.12+, Asyncio, aiohttp, Polars, Calamine, Pydantic, PostgreSQL (JSONB), dbt-core, Poetry.
 
-```javascript
-if (isAwesome){
-  return true
-}
+---
+
+### 🏗️ Arsitektur & Fitur Utama
+
+#### 1. Hybrid Ingestion Engine
+
+Sistem ini menangani dua jalur pengambilan data secara paralel:
+
+- **REST API Path**: Mengambil data JSON dari BLS, FRED, dan BEA menggunakan `asyncio` + `aiohttp` untuk high-concurrency fetching.
+- **File-based Path**: Mengunduh dan memproses file CSV/XLSX dari ONS (Office for National Statistics UK).
+
+### 2. Strict Data Validation
+
+- Menggunakan Pydantic strict models untuk memastikan kualitas dan integritas data sebelum masuk ke database. Sistem ini menolak data yang tidak sesuai schema secara otomatis.
+
+### 3. File Parsing
+
+- Menggunakan Polars dan Calamine untuk parsing file Excel/CSV yang cepat, dilengkapi dengan boundary detection untuk menangani struktur file rilis statistik yang tidak konsisten.
+
+### 4. Vintage Data Preservation
+
+- Raw data disimpan dalam format immutable di kolom PostgreSQL JSONB. Ini mendukung analisis historis point-in-time tanpa kehilangan data revisi dari sumber asli.
+
+### 📊 Cakupan Data
+
+- Pipeline ini saat ini menangani 45+ indikator ekonomi dari 2 negara, termasuk:
+- Inflasi: CPI, PPI
+- Pasar Tenaga Kerja: NFP, Unemployment Rate
+- Pertumbuhan Ekonomi: GDP, Trade Balance
+
+### 🖼️ Diagram Alur (Opsional)
+
+(Ganti dummy_thumbnail.jpg dengan screenshot diagram arsitektur atau terminal lu nanti)
+<img src="images/dummy_thumbnail.jpg?raw=true" alt="Pipeline Architecture Diagram" style="max-width: 100%; border-radius: 8px;"/>
+
+### 🔗 Links
+
+- 📂 Lihat Source Code di GitHub
+- 🏠 Kembali ke Halaman Utama``
+
 ```
 
-### 2. Assess assumptions on which statistical inference will be based
-
-```javascript
-if (isAwesome){
-  return true
-}
 ```
-
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
