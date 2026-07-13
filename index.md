@@ -34,5 +34,5 @@ Developed an automated macro data pipeline to extract, validate, and store macro
 
 ## 📬 Connect
 
-- [GitHub Profile](https://github.com/arxcore)
-- [Portfolio Project](https://github.com/arxcore/pipeline)
+- **[GitHub Profile](https://github.com/arxcore)**
+- **[GitHub Sources Code](https://github.com/arxcore/pipeline)**

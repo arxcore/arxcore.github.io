@@ -41,7 +41,4 @@ Pipeline ini saat ini menangani 45+ indikator ekonomi dari 2 negara, termasuk:
 
 <img src="/images/dummy_thumbnail.jpg" alt="Pipeline Architecture Diagram" style="max-width: 100%; border-radius: 8px;"/>
 
-### Links
-
-- [Source Code di GitHub](https://github.com/arxcore/pipeline)
-- [Home Page](/)
+- **[Home Page](/)**
