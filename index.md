@@ -1,64 +1,48 @@
 ---
 layout: page
-title: Macro Data Pipeline
-permalink: /pipeline/
+title: Home
+permalink: /
 ---
 
-## Junior Python Developer fokus pada data engineering
+# ARZ
 
-## Project
+**Junior Python Developer | Fokus pada Data Engineering**
 
-## Macro Data Pipeline
-
-Automated ELT (Extract, Load, Transform) pipeline open-source untuk mengambil, memvalidasi, dan menyimpan indikator makroekonomi dari lembaga statistik AS dan UK.
-
-- [Lihat di GitHub](https://github.com/arxcore/pipeline)
-
-## Skills
-
-- Python
-- PostgreSQL
-- Data Pipeline
+Membangun open-source ELT pipeline untuk data makroekonomi US & UK.
 
 ---
 
-### 🏗️ Arsitektur & Fitur Utama
+## 🚀 Featured Project
 
-#### 1. Hybrid Ingestion Engine
+### Macro Data Pipeline
 
-Sistem ini menangani dua jalur pengambilan data secara paralel:
+Automated ELT pipeline yang menangani 45+ indikator ekonomi (CPI, PPI, NFP, GDP) dari lembaga statistik AS dan Inggris.
 
-- **REST API Path**: Mengambil data JSON dari BLS, FRED, dan BEA menggunakan `asyncio` + `aiohttp` untuk high-concurrency fetching.
-- **File-based Path**: Mengunduh dan memproses file CSV/XLSX dari ONS (Office for National Statistics UK).
+**Tech Stack:** Python 3.12+ • Asyncio • Polars • Pydantic • PostgreSQL • dbt-core
 
-### 2. Strict Data Validation
+**Highlights:**
 
-- Menggunakan Pydantic strict models untuk memastikan kualitas dan integritas data sebelum masuk ke database. Sistem ini menolak data yang tidak sesuai schema secara otomatis.
+- Hybrid ingestion engine (REST API + file-based sources)
+- High-concurrency async data fetching
+- Strict data validation
+- Vintage data preservation dengan JSONB
 
-### 3. File Parsing
+**[Lihat Detail Project →](/pipeline/)**
 
-- Menggunakan Polars dan Calamine untuk parsing file Excel/CSV yang cepat, dilengkapi dengan boundary detection untuk menangani struktur file rilis statistik yang tidak konsisten.
+---
 
-### 4. Vintage Data Preservation
+## 💻 Core Skills
 
-- Raw data disimpan dalam format immutable di kolom PostgreSQL JSONB. Ini mendukung analisis historis point-in-time tanpa kehilangan data revisi dari sumber asli.
+- **Languages:** Python (Asyncio, Type Hints)
+- **Data Processing:** Polars, Pandas, Calamine
+- **Validation:** Pydantic (strict models)
+- **Database:** PostgreSQL (JSONB, indexing)
+- **Transformation:** dbt-core
+- **Tools:** Git, GitHub, Linux (Fedora)
 
-### 📊 Cakupan Data
+---
 
-- Pipeline ini saat ini menangani 45+ indikator ekonomi dari 2 negara, termasuk:
-- Inflasi: CPI, PPI
-- Pasar Tenaga Kerja: NFP, Unemployment Rate
-- Pertumbuhan Ekonomi: GDP, Trade Balance
+## 📬 Connect
 
-### 🖼️ Diagram Alur (Opsional)
-
-<img src="images/dummy_thumbnail.jpg?raw=true" alt="Pipeline Architecture Diagram" style="max-width: 100%; border-radius: 8px;"/>
-
-### 🔗 Links
-
-- 📂 Lihat Source Code di GitHub
-- 🏠 Kembali ke Halaman Utama``
-
-```
-
-```
+- **GitHub:** [github.com/arxcore](https://github.com/arxcore)
+- **Portfolio Project:** [github.com/arxcore/pipeline](https://github.com/arxcore/pipeline)
