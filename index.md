@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: default
 title: Home
 permalink: /
 ---
 
 # ARZ
 
-**Junior Python Developer | Fokus pada Data Engineering**
+**Junior Python Developer - Fokus pada Data Engineering**
 
 Membangun open-source ELT pipeline untuk data makroekonomi US & UK.
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Macro Data Pipeline
 permalink: /pipeline/
 ---
