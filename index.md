@@ -23,12 +23,12 @@ Developed an automated macro data pipeline to extract, validate, and store macro
 
 ## Core Skills
 
-- **Languages:** Python
-- **Data Processing:** Polars, Pandas, Calamine
-- **Validation:** Pydantic (strict models)
-- **Database:** PostgreSQL (JSONB, indexing)
-- **Transformation:** dbt-core
-- **Tools:** Git, GitHub, Linux
+- **Languages: Python**
+- **Data Processing: Polars, Pandas, Calamine**
+- **Validation: Pydantic (strict models)**
+- **Database: PostgreSQL (JSONB, indexing)**
+- **Transformation: dbt-core**
+- **Tools: Git, GitHub, Linux**
 
 ---
 
