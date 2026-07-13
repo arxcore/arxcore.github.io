@@ -4,7 +4,7 @@ title: Macro Data Pipeline
 permalink: /pipeline/
 ---
 
-# Macro Data Pipeline
+## Macro Data Pipeline
 
 automated ELT (Extract, Load, Transform) pipeline open-source untuk mengambil, memvalidasi, dan menyimpan indikator makroekonomi dari lembaga statistik AS dan UK.
 
@@ -42,7 +42,6 @@ Sistem ini menangani dua jalur pengambilan data secara paralel:
 
 ### 🖼️ Diagram Alur (Opsional)
 
-(Ganti dummy_thumbnail.jpg dengan screenshot diagram arsitektur atau terminal lu nanti)
 <img src="images/dummy_thumbnail.jpg?raw=true" alt="Pipeline Architecture Diagram" style="max-width: 100%; border-radius: 8px;"/>
 
 ### 🔗 Links

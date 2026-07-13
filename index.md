@@ -1,10 +1,8 @@
-# Araz Swandy
-
-Junior Python Developer fokus pada data engineering.
+## Junior Python Developer fokus pada data engineering
 
 ## Project
 
-### Macro Data Pipeline
+## Macro Data Pipeline
 
 ELT pipeline untuk data makroekonomi US & UK
 
