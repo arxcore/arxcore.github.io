@@ -8,14 +8,15 @@ permalink: /
 
 ## Summary
 
-Developed an automated macro data pipeline to extract, validate, and store macro indicators from international statistics (currently US & UK). Project is under active development
+**Developed an automated macro data pipeline to extract, validate, and store macro indicators from international statistics (currently US & UK). Project is under active development**
 
 **Highlights:**
 
-- Hybrid ingestion engine (REST API + file-based sources)
-- concurrency async data fetching
-- Strict data validation
-- Vintage data preservation dengan JSONB
+- **Hybrid ingestion engine (REST API + file-based sources)**
+- **concurrency async data fetching**
+- **Strict data validation**
+- **Data transformation with dbt-core**
+- **Vintage data preservation JSONB**
 
 **[Detail Project →](/pipeline/)**
 
