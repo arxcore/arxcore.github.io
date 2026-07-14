@@ -37,8 +37,10 @@ Pipeline ini saat ini menangani 45+ indikator ekonomi dari 2 negara, termasuk:
 - Pasar Tenaga Kerja: NFP, Unemployment Rate
 - Pertumbuhan Ekonomi: GDP, Trade Balance
 
+<img src="/images/postgresql.png" alt="Data Sample PostgreSQL" style="max-width: 100%; border-radius: 8px;"/>
+
 ### Diagram Alur
 
-<img src="/images/dummy_thumbnail.jpg" alt="Pipeline Architecture Diagram" style="max-width: 100%; border-radius: 8px;"/>
+<img src="/images/pipeline.png" alt="Pipeline Architecture Diagram" style="max-width: 100%; border-radius: 8px;"/>
 
 - **[Home Page](/)**
