@@ -256,19 +256,6 @@ The pipeline is **idempotent** - safe to re-run multiple times:
 - [x] CLI with multiple stages and filters
 - [x] Custom exception hierarchy
 
-### Planned Features
-
-- [ ] Database-backed metadata (replace YAML)
-- [ ] Circuit breaker for provider failures
-- [ ] Progress tracking and resume capability
-- [ ] Graceful DB error handling
-- [ ] Increased ONS concurrency
-- [ ] API batching for BLS
-- [ ] Metrics collection (Prometheus)
-- [ ] Scheduling (Airflow/Prefect)
-- [ ] Data retention policy
-- [ ] Table partitioning
-
 </div>
 
 <div class="section" markdown="1">
