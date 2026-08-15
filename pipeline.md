@@ -277,7 +277,6 @@ The pipeline is **idempotent** - safe to re-run multiple times:
 
 - **[Codebase Tracing](https://github.com/arxcore/pipeline/blob/main/docs/codebase_tracing.md)**: Complete runtime tracing and execution analysis
 - **[Pipeline Documentation](https://github.com/arxcore/pipeline/blob/main/docs/documentasi_pipeline.md)**: Higher-level technical documentation
-- **[Scaling Analysis](https://github.com/arxcore/pipeline/blob/main/docs/scale_optimisasi.md)**: Scaling analysis and optimization roadmap
 
 </div>
 
@@ -287,9 +286,6 @@ The pipeline is **idempotent** - safe to re-run multiple times:
 
 - **[GitHub Repository](https://github.com/arxcore/pipeline)**
 - **[README](https://github.com/arxcore/pipeline/blob/main/README.md)**
-
----
-
 - **[Home Page](/)**
 
 </div>

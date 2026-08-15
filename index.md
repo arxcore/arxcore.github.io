@@ -42,6 +42,5 @@ permalink: /
 - **[GitHub Profile](https://github.com/arxcore)**
 - **[GitHub Source Code](https://github.com/arxcore/pipeline)**
 - **[Technical Documentation](https://github.com/arxcore/pipeline/blob/main/docs/codebase_tracing.md)**
-- **[Scaling Analysis](https://github.com/arxcore/pipeline/blob/main/docs/scale_optimisasi.md)**
 
 </div>
