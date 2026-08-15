@@ -4,7 +4,8 @@ title: Home
 permalink: /
 ---
 
-<div class="section">
+<div class="section" markdown="1">
+
 ## Summary
 
 **Developed an automated macro data pipeline to extract, validate, and store macro indicators from international statistics (currently US & UK). Project is under active development**
@@ -18,9 +19,11 @@ permalink: /
 - **Vintage data preservation with JSONB**
 
 **[Detail Project →](/pipeline/)**
+
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
+
 ## Core Skills
 
 - **Languages: Python**
@@ -32,7 +35,8 @@ permalink: /
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
+
 ## 📬 Connect
 
 - **[GitHub Profile](https://github.com/arxcore)**
