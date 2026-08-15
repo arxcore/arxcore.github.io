@@ -1,3 +1,9 @@
+---
+layout: default
+title: Macro Data Pipeline
+permalink: /pipeline/
+---
+
 <div class="section">
 ## Macro Data Pipeline
 
