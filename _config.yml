@@ -1,7 +1,7 @@
 title: Araz swandy
 logo: "/images/logo.png?raw=true"
 description: > #
-  Hi, I'm Araz Swandy, a Python Developer focusing on Data Engineering based in indonesian
+  Hi, I'm Araz Swandy, a Python Developer focusing on Data Engineering based in Indonesia
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-theme-minimal
