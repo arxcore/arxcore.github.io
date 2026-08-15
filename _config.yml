@@ -5,3 +5,5 @@ description: > #
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-theme-minimal
+kramdown:
+  parse_block_html: true
