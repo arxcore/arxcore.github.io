@@ -171,6 +171,96 @@ footer {
   color: var(--text-secondary);
 }
 
+/* Two-column layout restoration for desktop */
+@media (min-width: 769px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  header {
+    grid-column: 1;
+    position: sticky;
+    top: 2rem;
+    height: fit-content;
+    align-self: start;
+    background-color: var(--dark-surface);
+    border-radius: 8px;
+    padding: 1.5rem;
+    border: 1px solid var(--dark-border);
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  
+  section {
+    grid-column: 2;
+    min-height: 100vh;
+  }
+  
+  footer {
+    grid-column: 1 / span 2;
+    margin-top: 3rem;
+  }
+  
+  /* Navigation adjustments for sidebar */
+  .site-nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .site-nav li {
+    margin: 0.25rem 0;
+  }
+  
+  .site-nav li a {
+    display: block;
+    padding: 0.5rem;
+    text-align: left;
+  }
+}
+
+/* Mobile layout - single column */
+@media (max-width: 768px) {
+  .wrapper {
+    display: block;
+    max-width: 100%;
+    padding: 1rem;
+  }
+  
+  header {
+    position: static;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--dark-border);
+  }
+  
+  section {
+    width: 100%;
+  }
+}
+
+/* Header content styling */
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+header p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .container {
