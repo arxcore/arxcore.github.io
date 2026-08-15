@@ -4,7 +4,7 @@ title: Macro Data Pipeline
 permalink: /pipeline/
 ---
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Macro Data Pipeline
 
@@ -13,7 +13,7 @@ permalink: /pipeline/
 An automated ELT (Extract, Load, Transform) pipeline designed to fetch, validate, and store macroeconomic indicators from major statistical agencies. The system prioritizes **data fidelity** by preserving raw vintage data, enabling accurate point-in-time historical analysis.
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Architecture & Key Features
 
@@ -37,7 +37,7 @@ Utilizes Polars and Calamine for fast Excel/CSV parsing, with boundary detection
 Raw data is stored in immutable format in PostgreSQL JSONB columns. This supports point-in-time historical analysis without losing revision data from original sources.
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Current Scope
 
@@ -70,7 +70,7 @@ Raw data is stored in immutable format in PostgreSQL JSONB columns. This support
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Data Coverage
 
@@ -84,7 +84,7 @@ The pipeline currently handles 45+ economic indicators from 2 countries, includi
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Technical Implementation
 
@@ -107,7 +107,7 @@ The pipeline currently handles 45+ economic indicators from 2 countries, includi
 The pipeline employs a **dual-path architecture** to handle API-based and file-based data sources differently, converging at the raw data storage layer.
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Data Flow
 
@@ -144,7 +144,7 @@ Query DB → Export to JSON → Save to exported_data/{country}/{name}_{timestam
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Performance & Scalability
 
@@ -177,7 +177,7 @@ The system is designed with scalability in mind:
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Data Architecture
 
@@ -199,7 +199,7 @@ Standardized time series data in `staging_indicators` table with composite uniqu
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Error Handling & Reliability
 
@@ -223,7 +223,7 @@ PipelineCrash
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Idempotency
 
@@ -237,7 +237,7 @@ The pipeline is **idempotent** - safe to re-run multiple times:
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Project Status
 
@@ -271,7 +271,7 @@ The pipeline is **idempotent** - safe to re-run multiple times:
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Documentation
 
@@ -281,7 +281,7 @@ The pipeline is **idempotent** - safe to re-run multiple times:
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Source Code
 
