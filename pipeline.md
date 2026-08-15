@@ -5,6 +5,7 @@ permalink: /pipeline/
 ---
 
 <div class="section">
+
 ## Macro Data Pipeline
 
 ### Overview
@@ -13,6 +14,7 @@ An automated ELT (Extract, Load, Transform) pipeline designed to fetch, validate
 </div>
 
 <div class="section">
+
 ## Architecture & Key Features
 
 ### 1. Hybrid Ingestion Engine
@@ -36,6 +38,7 @@ Raw data is stored in immutable format in PostgreSQL JSONB columns. This support
 </div>
 
 <div class="section">
+
 ## Current Scope
 
 ### Countries
@@ -68,6 +71,7 @@ Raw data is stored in immutable format in PostgreSQL JSONB columns. This support
 </div>
 
 <div class="section">
+
 ## Data Coverage
 
 The pipeline currently handles 45+ economic indicators from 2 countries, including:
@@ -81,6 +85,7 @@ The pipeline currently handles 45+ economic indicators from 2 countries, includi
 </div>
 
 <div class="section">
+
 ## Technical Implementation
 
 ### Tech Stack
@@ -103,6 +108,7 @@ The pipeline employs a **dual-path architecture** to handle API-based and file-b
 </div>
 
 <div class="section">
+
 ## Data Flow
 
 ### Stage 1: FETCH
@@ -139,6 +145,7 @@ Query DB → Export to JSON → Save to exported_data/{country}/{name}_{timestam
 </div>
 
 <div class="section">
+
 ## Performance & Scalability
 
 ### Current Performance
@@ -171,6 +178,7 @@ The system is designed with scalability in mind:
 </div>
 
 <div class="section">
+
 ## Data Architecture
 
 ### Raw Data Storage (Immutable)
@@ -192,6 +200,7 @@ Standardized time series data in `staging_indicators` table with composite uniqu
 </div>
 
 <div class="section">
+
 ## Error Handling & Reliability
 
 ### Exception Hierarchy
@@ -215,6 +224,7 @@ PipelineCrash
 </div>
 
 <div class="section">
+
 ## Idempotency
 
 The pipeline is **idempotent** - safe to re-run multiple times:
@@ -228,6 +238,7 @@ The pipeline is **idempotent** - safe to re-run multiple times:
 </div>
 
 <div class="section">
+
 ## Project Status
 
 ### Implemented Features
@@ -261,6 +272,7 @@ The pipeline is **idempotent** - safe to re-run multiple times:
 </div>
 
 <div class="section">
+
 ## Documentation
 
 - **[Codebase Tracing](https://github.com/arxcore/pipeline/blob/main/docs/codebase_tracing.md)**: Complete runtime tracing and execution analysis
@@ -270,6 +282,7 @@ The pipeline is **idempotent** - safe to re-run multiple times:
 </div>
 
 <div class="section">
+
 ## Source Code
 
 - **[GitHub Repository](https://github.com/arxcore/pipeline)**
